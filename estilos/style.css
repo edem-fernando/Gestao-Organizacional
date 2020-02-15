@@ -1,0 +1,6 @@
+/*------- TEXTO AO LADO DO MENU LATERAL --------*/
+.scrollspySite{
+    position: relative;
+    overflow: auto;
+    height: 340px;
+}
