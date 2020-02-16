@@ -154,7 +154,7 @@
         </div>
         <!-- menu lateral -->
         <div class="row mb-5">
-            <div class="col-3">
+            <div class="col-sm-6 col-md-4 mb-3">
                 <nav id="navbarVertical" class="nav navbar-light bg-light">
                     <nav class="nav nav-pills flex-column">
                         <a href="#intem1" class="nav-link">Lorem Ipsum</a>
@@ -182,7 +182,7 @@
                 </nav>
             </div>
             <!-- texto ao lado do menu -->
-            <div class="col-9">
+            <div class="col-sm-6 col-md-8">
                 <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
                     <h4 id="intem1">Lorem Ipsum</h4>
                     <p>
@@ -259,9 +259,9 @@
         
         </div>
         <!-- cards -->
-        <div class="row mb-5">
-            <div class="col-sm-4">
-                <div class="card">
+        <div class="row justify-content-sm-center">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
                     <img src="imgs/PHP.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         
@@ -281,7 +281,7 @@
                     
                     <div class="card-body">
                         
-                        <a href="#" class="card-link">Empresas que usam</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modal-1">Saiba mais</a>
                         <a href="https://www.php.net/" class="card-link">Site oficial</a>
                     
                     </div>
@@ -294,8 +294,8 @@
 
             </div>
             
-            <div class="col-sm-4">
-                <div class="card">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
                     <img src="imgs/py.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h4 class="card-title">Python</h4>
@@ -310,7 +310,7 @@
                     </ul>
 
                     <div class="card-body">
-                        <a href="#" class="card-link">Empresas que usam</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modal-2">Saiba mais</a>
                         <a href="https://www.python.org/" class="card-link">Site oficial</a>
                     </div>
 
@@ -321,8 +321,8 @@
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="card">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-5">
                     <img src="imgs/js.png" class="card-img-top" alt="...">
                     <div class="card-body">
                     
@@ -340,7 +340,7 @@
 
                     <div class="card-body">
                        
-                        <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Empresas que usam</a>
+                        <a href="#" class="card-link" data-toggle="modal" data-target="#modal-3">Saiba mais</a>
                         <a href="https://www.javascript.com/" class="card-link">Site oficial</a>
                     
                     </div>
@@ -355,16 +355,197 @@
 
     </div>
 
-    <!-- Modal -->
-    <div class="modal" id="siteModal" tabindex="1" role="dialog">
-        <div class="modal-dialog" role="document">
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <h1 class="display-4">Depoimentos sobre o avanço tecnológico</h1>
+                    <p class="lead">Os vídeos, abaixo, tentam passar uma breve noção de como será o futuro. Prepare o seu negócio já!</p>
+                    <hr />
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-12">
+
+                    <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+                        <li class="nav-item">
+                            <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Importância do avanço tecnológico</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Inovações que vão revolucionar o Ecommerce</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Negócios do futuro, sua empresa já está lá?</a>
+                        </li>
+
+                    </ul>
+                    <!-- link que o navbar irá chamar-->
+                    <div class="tab-content" id="nav-pills-content">
+
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/F-lS7SOHXfc"></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <p>
+                                        HBR Brasil Channel é uma produção da Harvard Business Review Brasil sob a consultoria da produtora Comunicador Corporativo.
+                                        Todos os direitos reservados.
+                                        A distribuição e compartilhamento dos vídeos é permitida desde de que se reproduza o formato integral, incluindo vinhetas e assinaturas.
+                                        Texto para crédito em sites, blogs e redes sociais de terceiros:
+                                        Fonte - HBR Brasil Channel
+                                        Harvard Business Review | www.hbrbr.com.br
+                                        Comunicador Corporativo | www.comunicadorcorporativo.com.br
+                                        Fale com a HBR Brasil Channel: 
+                                        11 3045.6447
+                                        Para anunciar no HBR Brasil Channel e na Revista Harvard Business Review Brasil:
+                                        haidee@rfmeditores.com.br
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="nav-item-02" role="tabpanel">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/edCj1f1o60E"></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <p>
+                                        1 - Inteligência artificial
+                                        O 5G, que deve ser lançado no mercado em breve, 
+                                        vai ser um grande diferencial no Ecommerce, tanto 
+                                        para lojistas quanto para os clientes. Com ele, vários 
+                                        aparelhos do dia a dia vão ganhar inteligência para fazer 
+                                        pedidos automaticamente. Um exemplo de inteligência artificial 
+                                        que já dá muito certo é o sistema de lojas Amazon Go.
+                                        <br />
+                                        2 - Realidade Virtual
+                                        Hoje, os dados mostram um alto índice de trocas e devoluções no 
+                                        segmento de moda e acessórios. Quando a realidade virtual for implementada
+                                        no Ecommerce, esse tipo de situação vai acontecer com menos frequência, pois 
+                                        as pessoas poderão testar os produtos com maior precisão.
+                                        <br />
+                                        ...
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show" id="nav-item-03" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/41ufr85mFZ0"></iframe>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <p>
+                                        Nesse vídeo estamos em Paris, na França!
+                                        E no meio do caminho para o Palácio Versalhes, fizemos essa parada para compartilhar 
+                                        uma coisa que achamos bem bacana!
+                                        <br />
+                                        Aqui é muito comum nos mercados os caixas serem completamente automatizados, ou seja, 
+                                        você mesmo passa o código de barras dos itens que vai comprar, escolhe forma de pagamento, 
+                                        põe na sacolinha e  voilà!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modal-3" tabindex="1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                         <!-- Titulo p Modal -->
                         <h5 class="modal-title">
                             Texto alternativo
                             <button type="button" class="close" data-dismiss="modal">
-                                <span>X</span>
+                                <span>&times;</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <!-- corpo do modal -->
+                        <p>texto texo texot texo texo texo</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <!-- rodapé do modal -->
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Outro Botão</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-2" tabindex="1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <!-- Titulo p Modal -->
+                        <h5 class="modal-title">
+                            Texto alternativo
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <!-- corpo do modal -->
+                        <p>texto texo texot texo texo texo</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <!-- rodapé do modal -->
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Outro Botão</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-1" tabindex="1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                        <!-- Titulo p Modal -->
+                        <h5 class="modal-title">
+                            Texto alternativo
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
                             </button>
                         </h5>
                     </div>
