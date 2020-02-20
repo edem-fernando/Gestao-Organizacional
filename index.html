@@ -4,78 +4,44 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="estilos/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/style.css">
-
     <title>AvQualis Gestão Organizacional</title>
+    <style>
+        #link{
+            cursor:pointer;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-        
-        <div class="container">
-            
-            <a class="navbar-brand h1 mb-0" href="#">Curso</a>
-            
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">       
+        <div class="container">           
+            <a class="navbar-brand h1 mb-0" href="#">Gestão Organizacional</a> 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSite">
-                
-                <!-- ul alinhada na direita mr-auto -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Início</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Perfil</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Serviços</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Depoimentos</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contatos</a>
-                    </li>
-
-                </ul>
-                
+            </button>            
+            <div class="collapse navbar-collapse" id="navbarSite">    
                 <!-- ul alinhada na esquerda ml-auto-->
                 <ul class="navbar-nav ml-auto">
                     <!-- menu dropdown -->
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Social</a>
-                        
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Social</a> 
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">Facebook</a>
                             <a href="#" class="dropdown-item">Twitter</a>
                             <a href="#" class="dropdown-item">WhatsApp</a>
                             <a href="#" class="dropdown-item">Instagram</a>
                         </div>
-
                     </li>
-
                 </ul>
-                
                 <form action="" class="form-inline ml-4"><!-- a class mr e ml vão até o tamanho 5-->
                     <input class="form-control mr-2" type="search" placeholder="Buscar" />
-                    
                     <button class="btn btn-primary" type="submit">Ok</button>
 
-                </form>
-            
-            </div>
-        
-        </div>
-    
+                </form>            
+            </div>        
+        </div>    
     </nav>
     <!-- carrousel -->
     <!-- 
@@ -94,47 +60,27 @@
         
         <div class="carousel-inner">
             <div class="carousel-item active">  
-                <img src="imgs/case4.jpg" class="d-block w-100" alt="...">
-                
-                <!-- adicionando texto na imagem -->
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Lorem Ipsum</h1>
-                    <p class="lead">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
-                </div>
-
+                <img src="imgs/reuniao.png" class="d-block w-100" alt="...">
             </div>
             
-            <div class="carousel-item">                
-                <img src="imgs/case2.jpg" class="d-block w-100" alt="...">
-
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Where does it come from?</h1>
-                    <p class="lead">There are many variations of passages of Lorem Ipsum available.</p>
-                </div>
-
+            <div class="carousel-item"> 
+                <img src="imgs/respect.png" class="d-block w-100" alt="..." id="link">
             </div>
             
             <div class="carousel-item">
-                <img src="imgs/case5.jpg" class="d-block w-100" alt="...">
-
-                <div class="carousel-caption d-none d-md-block">
-                    <h1>Why do we use it?</h1>
-                    <p class="lead">Many desktop publishing packages and web page editors.</p>
-                </div>
-
+                <a href="https://www.gazetadopovo.com.br/instituto-politeia/maquinas-desemprego-tecnologia-automacao/"> 
+                    <img src="imgs/grafico.png" class="d-block w-100" alt="..." id="link">
+                </a>
             </div>
         </div>
-        
         <a href="#carouselSite" class="carousel-control-prev" data-slide="prev" role="button">
             <span class="carousel-control-prev-icon"></span>
             <span class="sr-only">Anterior</span>
         </a>
-        
         <a href="#carouselSite" class="carousel-control-next" data-slide="next" role="button">
             <span class="carousel-control-next-icon"></span>
             <span class="sr-only">Avançar</span>
         </a>
-
     </div>
     <!--    título abaixo do carousel 
             a class mt refere-se ao espaçamento de cima (margin-top), pr padrão suporta até o numeral 5 (maior valor)
@@ -146,10 +92,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center my-5">
-                <h1 class="display-3">Lorem Ipsum</h1>
-
-                <p>On the other hand, we denounce with righteous indignation.</p>
-            
+                <h1 class="display-3">Prepare-se já!</h1>
+                <p>Matenha-se atualizado e inove os processos de sua empresa.</p>
             </div>
         </div>
         <!-- menu lateral -->
@@ -157,137 +101,126 @@
             <div class="col-sm-6 col-md-4 mb-3">
                 <nav id="navbarVertical" class="nav navbar-light bg-light">
                     <nav class="nav nav-pills flex-column">
-                        <a href="#intem1" class="nav-link">Lorem Ipsum</a>
+                        <a href="#intem1" class="nav-link">Importância da tecnologia para as empresas</a>
                         
                         <nav class="nav nav-pills flex-column">
-                            <a href="#intem1-1" class="nav-link ml-3">Sed nec quam</a>
-
-                            <a href="#intem1-2" class="nav-link ml-3">Curabitur malesuada</a>
-
+                            <a href="#intem1-1" class="nav-link ml-3">A tecnologia é sua aliada</a>
+                            <a href="#intem1-2" class="nav-link ml-3">Contribuições</a>
                         </nav>
-                        
-                        <a href="#intem2" class="nav-link my-2"> Quisque et suscipit leo </a>
-
-                        <a href="#intem3" class="nav-link my-2"> Mauris pharetra </a>
-
+                        <a href="#intem2" class="nav-link my-2"> Exemplos</a>
                         <nav class="nav nav-pills flex-column">
-                            <a href="#intem3-1" class="nav-link ml-3">Donec egestas venenatis lorem</a>
-
-                            <a href="#intem3-2" class="nav-link ml-3">Donec dignissim leo </a>
-
+                            <a href="#intem2-1" class="nav-link ml-3">Teoria Geral dos Sistemas</a>
                         </nav>
-
                     </nav>
-
                 </nav>
             </div>
             <!-- texto ao lado do menu -->
             <div class="col-sm-6 col-md-8">
                 <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
-                    <h4 id="intem1">Lorem Ipsum</h4>
+                    <h4 id="intem1">Por que a tecnologia nas empresas é tão importante?</h4>
                     <p>
-                        Vestibulum at blandit ligula. 
-                        Duis ac mauris ut massa porta sollicitudin. 
-                        Praesent in iaculis neque, eu accumsan libero. 
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                        Vivamus dignissim nisl sit amet augue ullamcorper, ac suscipit sapien scelerisque. 
-                        Etiam congue pharetra scelerisque. Maecenas facilisis egestas tempus.
+                        O mercado está cada vez mais competitivo, isso é fato. 
+                        O aumento não só no número de empresas, mas também na 
+                        qualidade dos produtos e serviços oferecidos, faz com 
+                        que as organizações tenham que investir em inovação 
+                        nos produtos que entregam aos clientes, bem como 
+                        nas suas próprias estruturas internas.
                     </p>
 
-                    <h5 id="intem1-1">Sed nec quam</h5>
+                    <h5 id="intem1-1">Como as tecnologias ajudam no crescimento dos diversos setores das empresas?</h5>
                     <p>
-                        Pellentesque tempus velit at vehicula elementum. 
-                        Sed at urna vehicula purus euismod posuere. 
-                        Integer feugiat, ipsum vitae euismod posuere, mi massa porttitor risus, non imperdiet odio erat et lacus. 
-                        Suspendisse turpis diam, fringilla vitae nunc ac, consequat tempus purus. 
-                        Nulla id libero sem. Vestibulum fermentum sem ultricies magna rutrum, et lacinia purus tempor.
+                        A tecnologia ajuda organizações em todos os seus setores. 
+                        A partir do momento em que a empresa implementa uma cultura
+                        de inovação internamente, fica mais fácil alinhar o trabalho de toda a equipe.
                     </p>
 
-                    <h5 id="intem1-2">Curabitur malesuada</h5>
+                    <h4 id="intem1-2">Quais são os principais benefícios do uso da tecnologia nas empresas?</h4>
                     <p>
-                        Sed ultrices libero blandit quam sodales hendrerit. 
-                        Sed tempor sapien nec mattis porttitor. 
-                        Pellentesque vel lorem vitae ipsum sagittis aliquam. 
-                        Proin non odio dignissim, egestas nisi et, cursus ex.
-                         Mauris in arcu risus. Suspendisse sed turpis scelerisque, feugiat erat in, ultricies augue. 
-                         Pellentesque ex metus, blandit eget tincidunt tincidunt, placerat in orci. 
-                         Morbi efficitur, ex in dignissim hendrerit, lorem ipsum euismod lacus, eget aliquet sapien mi id erat. 
-                         Maecenas est nisi, semper dapibus ex et, consectetur porta nisl. 
-                         Donec neque dolor, maximus nec orci et, dignissim fermentum nunc.
+                        A tecnologia trouxe benefícios para as empresas em todos os sentidos.
+                        Um deles é a otimização e automatização dos processos produtivos.
+                    </p>
+                    <p>
+                        Aumento da produtividade<br />Redução de custos<br />Maior alinhamento da equipe
                     </p>
 
-                    <h4 id="intem2">Quisque et suscipit leo</h4>
+                    <h4 id="intem2">Depoimento de Nery(Componente do grupo)</h4>
                     <p>
-                        Sed erat metus, facilisis vel congue vel, placerat non nisl. 
-                        Donec sit amet ipsum eros. Nulla facilisi. 
-                        Donec fringilla ipsum in nibh convallis tristique. 
-                        Cras volutpat consequat interdum. 
-                        Phasellus purus risus, lobortis nec felis ut, faucibus molestie urna. 
-                        Quisque vehicula, lacus eu tempus rutrum, dolor nunc condimentum velit, et vestibulum felis ipsum id leo. 
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                        Donec venenatis ante urna, non consectetur arcu dapibus quis. 
-                        Donec varius, augue ut iaculis eleifend, orci mi pretium ex, tincidunt cursus nulla ante in lacus. 
-                        Vivamus est metus, tempor in est ut, rutrum tempus ipsum.
+                        Todas as carreiras do mundo passam por transformações 
+                        oriundas das mudanças tecnológicas, 
+                        o Direito não ficaria incólume, tanto 
+                        pelo potencial de ganho econômico envolvido, 
+                        como mais ainda pelo potencial de redução de custos com 
+                        a produção que eventuais soluções de conflito possam trazer.
                     </p>
 
-                    <h4 id="intem3">Mauris pharetra</h4>
+                    <h5 id="intem2-1">Relação Tecnlogia e mudança de cultura X TGS</h5>
                     <p>
-                        Suspendisse potenti. 
-                        Cras nec nisi in tellus pretium dictum nec id sapien. 
-                        Nulla blandit, leo eu egestas tempus, ante tellus porttitor tortor, vitae tristique orci erat sed dui. 
-                        Maecenas eget pulvinar libero. Sed tincidunt facilisis lobortis. 
+                        A Teoria Geral dos Sistemas da Administração nos ensina que a 
+                        organização tanto influência quanto sobre influência direta do 
+                        meio externo, da sociedade, das tecnologias (de forma mais ampla) e 
+                        que deve se adequar, mesmo sendo inaplicável pela ausência de padrões 
+                        e procedimentos que as organizações possam seguir ganha enorme relevância
+                        nos temos modernos por exaltar o aspectos da adaptabilidade que aquelas, 
+                        ou até mesmo a própria sociedade, devem ter.
                     </p>
-
-                    <h5 id="intem3-1">Donec egestas venenatis lorem</h5>
                     <p>
-                        Vivamus hendrerit urna odio, in ullamcorper neque tincidunt vitae. 
-                        Integer vitae est at nisi hendrerit porta iaculis ac tellus. 
-                        Ut velit ex, ultrices eget posuere non, pulvinar ut massa. 
-                        In ullamcorper tellus a ante mollis, nec pharetra lorem sodales.
+                        Mais ainda, quando se fala em adaptabilidade, 
+                        não se pode pensar apenas em organismos frios, 
+                        empresas em si, esquecendo-se dos conceito valorosos 
+                        da Teoria Comportamental que trouxeram com o “permissivo da sistêmica” 
+                        o uso da psicanalise para contribuir com a análise do comportamento humano 
+                        como agente de influência direta nos aspectos de gestão, ou mais precisamente da produção.
                     </p>
-
-                    <h5 id="intem3-2">Donec dignissim leo </h5>
                     <p>
-                        Ec urna tristique, suscipit pellentesque sem tincidunt. 
-                        Etiam bibendum scelerisque dictum. Sed posuere dolor pulvinar, euismod nunc quis, vehicula orci. 
-                        Aliquam ultrices magna neque. Curabitur vel consequat orci, quis pellentesque nunc. 
+                        A ênfase na pessoa, a preocupação do comportamento organizacional, 
+                        o estudo da psíquica humana e a motivação organizacional tornaram-se 
+                        figuras centrais para o desenvolvimento das condições de inovação. 
+                        Aliás, já se sabe que até mesmo a condição de relaxamento, ou o 
+                        “ócio produtivo” seria uma das condições para o afloramento da criatividade 
+                        e consequentemente para a inovação na vida, e nas organizações como um todo.
                     </p>
-
+                    <p>
+                        Neste sentido, a Teoria Contingencial enfatiza 
+                        a relação interpessoal como equipe, o líder surge 
+                        não de uma imposição, mas sim de um reconhecimento 
+                        do grupo, isto influência diretamente nos dois modelos 
+                        de gestão que se possui hoje mecanicismo e orgânico.
+                    </p>
+                    <p>
+                        Enfrentando o problema da inovação na advocacia 4.0, 
+                        faríamos rodas de diálogo, compartilhamento de informações, 
+                        treinamento de equipes, incentivo à inovação e premiações ao 
+                        “erro inovador” (“erro bom”), o que daria mais confiança à 
+                        equipe para seguir no caminho de se aventurar na inovação.
+                    </p>
                 </div>
-
             </div>
-        
         </div>
         <!-- cards -->
         <div class="row justify-content-sm-center">
             <div class="col-sm-6 col-md-4">
                 <div class="card mb-5">
-                    <img src="imgs/PHP.png" class="card-img-top" alt="...">
+                    <img src="imgs/black.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         
-                        <h4 class="card-title">PHP</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">A linguagem da Web</h6>
-                        <p class="card-text">Conheça a liguagem mais utilizada em servidores no mundo</p>
-                    
-                    </div>
-
-                    <ul class="list-group list-group-flush" >
-                    
-                        <li class="list-group-item">Facebook</li>
-                        <li class="list-group-item">WhatsApp</li>
-                        <li class="list-group-item">Totvs</li>
-                    
-                    </ul>
-                    
+                        <h4 class="card-title">BlackBerry</h4>
+                        <p class="card-text">
+                            A Blackberry era uma das grandes líderes do mercado de smartphone e 
+                            durante muito tempo fez um sucesso estrondoso, porém, tinha uma Apple 
+                            no caminho! O iPhone chegou e trouxe a tela touchscreen, o desenvolvimento 
+                            do conceito de valor agregado e muitas outras funcionalidades que engoliram os 
+                            aparelhos da Blackberry.Conheça a liguagem mais utilizada em servidores no mundo
+                        </p>
+                    </div>                    
                     <div class="card-body">
-                        
                         <a href="#" class="card-link" data-toggle="modal" data-target="#modal-1">Saiba mais</a>
-                        <a href="https://www.php.net/" class="card-link">Site oficial</a>
-                    
+                        <a href="https://elephantcoworking.com.br/veja-4-empresas-que-faliram-por-falta-de-inovacao/" class="card-link">
+                            Referência
+                        </a>
                     </div>
                     
                     <div class="card-footer text-muted">
-                        Maior comunidade de programadores
+                        Faliu!!!
                     </div>
 
                 </div>
@@ -296,59 +229,49 @@
             
             <div class="col-sm-6 col-md-4">
                 <div class="card mb-5">
-                    <img src="imgs/py.jpg" class="card-img-top" alt="...">
+                    <img src="imgs/kodac.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h4 class="card-title">Python</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">A linguagem do momento</h6>
-                        <p class="card-text">Conheça a linguagem mais simples de se aprender</p>
+                        <h4 class="card-title">Kodac</h4>
+                        <p class="card-text">
+                            A Kodak foi líder de mercado durante muitos e 
+                            muitos anos, quando as máquinas fotográficas de
+                            uso pessoal ainda eram analógicas. Nessa tecnologia, 
+                            a empresa faturou muito tanto com a venda de câmeras quanto de filmes. 
+                            O problema começou quando a tecnologia digital chegou!
+                        </p>
                     </div>
-
-                    <ul class="list-group list-group-flush" >
-                        <li class="list-group-item">Google</li>
-                        <li class="list-group-item">Uber</li>
-                        <li class="list-group-item">Instagram</li>
-                    </ul>
-
                     <div class="card-body">
                         <a href="#" class="card-link" data-toggle="modal" data-target="#modal-2">Saiba mais</a>
-                        <a href="https://www.python.org/" class="card-link">Site oficial</a>
+                        <a href="https://elephantcoworking.com.br/veja-4-empresas-que-faliram-por-falta-de-inovacao/" class="card-link">
+                            Referência
+                        </a>
                     </div>
-
                     <div class="card-footer text-muted">
-                        Usada em Data Centers
+                        Faliu!!!
                     </div>
-
                 </div>
             </div>
-
             <div class="col-sm-6 col-md-4">
                 <div class="card mb-5">
-                    <img src="imgs/js.png" class="card-img-top" alt="...">
+                    <img src="imgs/block.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                    
-                        <h4 class="card-title">JavaScript</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">A linguagem mais usada</h6>
-                        <p class="card-text">Conheça a linguagem de programação mais utilizada do mundo</p>
-                    
+                        <h4 class="card-title">Blockbuster</h4>
+                        <p class="card-text">
+                            Um dos programas mais legais da década de 90 e do início dos 
+                            anos 2000 era ir à Blockbuster escolher alguns filmes, alugar 
+                            e ir assistir em casa! Parecia realmente um programa sensacional
+                            e um produto infalível, mas a era digital chegou.
+                        </p>
                     </div>
-
-                    <ul class="list-group list-group-flush" >
-                        <li class="list-group-item">Globo</li>
-                        <li class="list-group-item">Telegram</li>
-                        <li class="list-group-item">Microsoft</li>
-                    </ul>
-
                     <div class="card-body">
-                       
                         <a href="#" class="card-link" data-toggle="modal" data-target="#modal-3">Saiba mais</a>
-                        <a href="https://www.javascript.com/" class="card-link">Site oficial</a>
-                    
+                        <a href="https://elephantcoworking.com.br/veja-4-empresas-que-faliram-por-falta-de-inovacao/" class="card-link">
+                            Referência
+                        </a>
                     </div>
-
                     <div class="card-footer text-muted">
-                        Utilizada em desenvolvimento mobile
+                        Faliu!!!
                     </div>
-
                 </div>
             </div>
         </div>
@@ -475,11 +398,8 @@
                             </div>
                         </div>
                     </div>
-
             </div>
-
         </div>
-
     </div>
 
     <!-- Modals -->
@@ -489,21 +409,21 @@
                 <div class="modal-header">
                         <!-- Titulo p Modal -->
                         <h5 class="modal-title">
-                            Texto alternativo
-                            <button type="button" class="close" data-dismiss="modal">
-                                <span>&times;</span>
-                            </button>
+                            Blockbuster
                         </h5>
                     </div>
-
                     <div class="modal-body">
                         <!-- corpo do modal -->
-                        <p>texto texo texot texo texo texo</p>
+                        <p>
+                            Os filmes começaram a ser baixados ilegalmente pela internet e isso não foi o suficiente para ligar 
+                            o sinal de alerta da Blockbuster. A última pá de cal veio com as plataformas de streaming, 
+                            e lá se foi o modelo de negócio de locação de mídia.
+                        </p>
                     </div>
 
                     <div class="modal-footer">
                         <!-- rodapé do modal -->
-                        <button class="btn btn-danger" type="button" data-dismiss="modal">Outro Botão</button>
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
@@ -516,21 +436,23 @@
                 <div class="modal-header">
                         <!-- Titulo p Modal -->
                         <h5 class="modal-title">
-                            Texto alternativo
-                            <button type="button" class="close" data-dismiss="modal">
-                                <span>&times;</span>
-                            </button>
+                            A Kodac
                         </h5>
                     </div>
 
                     <div class="modal-body">
                         <!-- corpo do modal -->
-                        <p>texto texo texot texo texo texo</p>
+                        <p>
+                            O problema é que a empresa tinha pesquisas e tecnologia 
+                            suficiente para entrar no mercado digital, mas, de certo modo, 
+                            resolveu boicotar e não entrar nele de cabeça por um motivo inacreditável: 
+                            ela acreditava que isso diminuiria muito as vendas de seus filmes. 
+                            Em vez de explorar dois mercados, a Kodak se limitou e quebrou!
+                        </p>
                     </div>
-
                     <div class="modal-footer">
                         <!-- rodapé do modal -->
-                        <button class="btn btn-danger" type="button" data-dismiss="modal">Outro Botão</button>
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
@@ -543,21 +465,24 @@
                 <div class="modal-header">
                         <!-- Titulo p Modal -->
                         <h5 class="modal-title">
-                            Texto alternativo
-                            <button type="button" class="close" data-dismiss="modal">
-                                <span>&times;</span>
-                            </button>
+                            A BlackBerry
                         </h5>
                     </div>
 
                     <div class="modal-body">
                         <!-- corpo do modal -->
-                        <p>texto texo texot texo texo texo</p>
+                        <p>
+                            Em 2007, a empresa era dona de mais de 50% do 
+                            mercado americano, mas isso tudo foi por água 
+                            abaixo simplesmente porque ela acreditou excessivamente 
+                            no seu modelo de aparelho. Ficou para trás presa em suas 
+                            convicções e, quando resolveu inovar, foi tarde demais.
+                        </p>
                     </div>
 
                     <div class="modal-footer">
                         <!-- rodapé do modal -->
-                        <button class="btn btn-danger" type="button" data-dismiss="modal">Outro Botão</button>
+                        <button class="btn btn-danger" type="button" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
             </div>
