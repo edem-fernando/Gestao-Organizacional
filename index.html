@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="estilos/bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos/style.css">
     <!-- font awesome-->
-    <link rel="stylesheet" href="estilos/fontawesome-free-5.12.1-web/css/fontawesome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos/fontawesome-free-5.12.1-web/css/all.css">
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
     <title>AvQualis Gestão Organizacional</title>
 </head>
 <body>
@@ -26,10 +26,9 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop">Social</a> 
                         <div class="dropdown-menu">
-                            <a href="#" class="dropdown-item">Facebook</a>
-                            <a href="#" class="dropdown-item">Twitter</a>
-                            <a href="#" class="dropdown-item">WhatsApp</a>
-                            <a href="#" class="dropdown-item">Instagram</a>
+                            <a href="#" class="dropdown-item text-primary"><i class="fab fa-facebook-square"></i> Facebook</a>
+                            <a href="#" class="dropdown-item text-success"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                            <a href="#" class="dropdown-item text-warning"><i class="fab fa-instagram"></i>  Instagram</a>
                         </div>
                     </li>
                 </ul>
@@ -91,7 +90,7 @@
         <div class="row">
             <div class="col-12 text-center my-5">
                 <h1 class="display-3">
-                    Prepare-se já!
+                    <i class="fas fa-flag text-success"></i> Prepare-se já!
                 </h1>
                 <p>Matenha-se atualizado e inove os processos de sua empresa.</p>
             </div>
@@ -295,7 +294,6 @@
             <div class="row">
 
                 <div class="col-12 text-center">
-
                     <h1 class="display-4">Depoimentos sobre o avanço tecnológico</h1>
                     <p class="lead">Os vídeos, abaixo, tentam passar uma breve noção de como será o futuro. Prepare o seu negócio já!</p>
                     <hr />
@@ -397,6 +395,82 @@
         </div>
     </div>
 
+    <!-- formulário -->
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-12 text-center my-5">
+                <h1 class="display-4">
+                    <i class="fa fa-paper-plane text-success" aria-hidden="true"></i>
+                    Cadastre-se
+                </h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            
+            <div class="col-sm-12 col-md-10 col-lg-8">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <input type="text" class="form-control form-control-lg" placeholder="Nome">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <input type="email" class="form-control form-control-lg" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <textarea class="form-control" rows="5" placeholder="Deixe sua dúvida" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <button class="form-control btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <!-- rodapé -->
+    <div class="row">
+        <div class="col-12"><hr></div>
+        <div class="col-sm-4">
+            <h3>Curso</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <p>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Menu</h3>
+
+            <div class="list-group text-center">
+                <a class="list-group-item list-group-item-action list-group-item-success" > Perfil</a>
+                <a class="list-group-item list-group-item-action"> Depoimentos</a>
+                <a class="list-group-item list-group-item-action"> Serviços</a>
+                <a class="list-group-item list-group-item-action"> Contatos</a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>Social</h3>
+            <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+                <a class="btn btn-primary" style="color: white;"><i class="fab fa-facebook-square"></i> Facebook</a>
+                <a class="btn btn-warning"><i class="fab fa-instagram"></i> Instagram</a>
+                <a class="btn btn-success" style="color: white;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            </div>
+        </div>
+        <div class="col-12 mt-5">
+            <blockquote class="blockquote text-center">
+                <p class="mb-0"> O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho </p>
+                <footer class="blockquote-footer">Biz Stone <cite title="Titulo">Fundador do Twitter</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+
     <!-- Modals -->
     <div class="modal fade" id="modal-3" tabindex="1" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
@@ -480,43 +554,6 @@
                         <button class="btn btn-danger" type="button" data-dismiss="modal">Fechar</button>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- formulário -->
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-12 text-center my-5">
-                <h1 class="display-4">Cadastre-se</h1>
-            </div>
-        </div>
-
-        <div class="row justify-content-center mb-5">
-            
-            <div class="col-sm-12 col-md-10 col-lg-8">
-                <form>
-                    <div class="form-row">
-                        <div class="form-group col-sm-6">
-                            <input type="text" class="form-control form-control-lg" placeholder="Nome">
-                        </div>
-
-                        <div class="form-group col-sm-6">
-                            <input type="email" class="form-control form-control-lg" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <textarea class="form-control" rows="5" placeholder="Deixe sua dúvida" required></textarea>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-12">
-                            <button class="form-control btn btn-primary">Enviar</button>
-                        </div>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
